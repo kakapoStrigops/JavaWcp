@@ -6,5 +6,11 @@ public class While01 {
 			number *= 2;
 			System.out.println("While01 = " + number);
 		}
+
+		number = 100;
+		while (number < 50) {
+			number *= 2;
+			System.out.println("While01 = " + number);
+		}
 	}
 }
