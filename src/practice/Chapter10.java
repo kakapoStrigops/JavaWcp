@@ -10,7 +10,7 @@ public class Chapter10 {
 			Chapter10.validIndex(array, 3);
 
 			System.out.println("validIndexの呼び出し終了");
-		} catch(IllegalArgumentException e) {
+		} catch (IllegalArgumentException e) {
 			System.out.println("IllegalArgumentExceptionが発生しました");
 			e.printStackTrace();
 		}
